@@ -17,3 +17,10 @@ ggplot(data = starwars, aes(x = mass, y = height)) +
   geom_point()
 ```
 
+New code
+
+```{r}
+ggplot(data = starwars, aes(x = height, y = mass)) +
+  geom_point()
+```
+
