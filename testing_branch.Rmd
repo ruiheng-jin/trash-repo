@@ -20,7 +20,7 @@ ggplot(data = starwars, aes(x = mass, y = height)) +
 New code
 
 ```{r}
-ggplot(data = starwars, aes(x = height, y = mass)) +
+ggplot(data = starwars, aes(x = mass, y = height)) +
   geom_point()
 ```
 
