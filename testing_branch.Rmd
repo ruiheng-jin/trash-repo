@@ -4,6 +4,16 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+library(tidyverse)
+```
+
+```{r}
+ggplot(data = starwars, aes(x = mass, y = height)) +
+  geom_point()
 ```
 
